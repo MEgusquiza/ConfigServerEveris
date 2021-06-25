@@ -1,14 +1,12 @@
-
 server:
    port: 8096
-
-     
-   spring:
-      cloud:
-       config:
-        server:
-            git:
-             url:https://github.com/MEgusquiza/ProyectoReactivoEveris.git
-             searchPath:config_data
-             username:${GIT_USER}
-             password:${GIT_PASSWORD}
+            
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MEgusquiza/ConfigDataEveris.git 
+          searchPaths: ConfigDataEveris
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
