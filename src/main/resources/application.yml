@@ -6,7 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/MEgusquiza/ConfigDataEveris.git 
-          searchPaths: ConfigDataEveris
-          username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          #uri: https://github.com/MEgusquiza/ConfigDataEveris.git
+          uri: https://github.com/MEgusquiza/ConfigDataEveris/
+          searchPaths: ConfigData
+     #     username: ${GIT_USER}
+     #     password: ${GIT_PASSWORD}
